@@ -2,7 +2,7 @@
 
 ![WiFiModem](board/WiFiModem.png)
 
-This is a simple layout for connection a ESP12E to a serial port so that a serial to wireless gateway can be used.  It connects RTS/CTS for flow control (when supported) and has DB9 female and DB25 male connectors.  DB25 male was used to connect directly to an Apple Super Serial Card.  There are jumpers that swap TXD/RXD and RTS/CTS to implement a built-in null modem changer.
+This is a simple layout for connection a ESP12E to a serial port so that a serial to wireless gateway can be used.  It connects RTS/CTS for flow control (when supported) and has DB9 female/male and DB25 female/male connectors.  The particular gender of the connector can be mounted on the side of the board indicated by the silkscreening.  DB25 male is used to connect directly to an Apple Super Serial Card.  DB25 female is the standard connection of old-style dialup modems.  There are jumpers that swap TXD/RXD, RTS/CTS, and DTR/DSR to implement a built-in null modem changer.
 
 There are several types of firmware that could be used on it.
 
