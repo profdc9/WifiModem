@@ -14,8 +14,6 @@ https://github.com/dhansel/WifiModem
 
 https://github.com/jsalin/esp8266_modem
 
-https://github.com/bozimmerman/Zimodem
-
 https://github.com/maccasoft/WifiModem/blob/master/WifiModem.ino
 
 https://github.com/ssshake/vintage-computer-wifi-modem
@@ -23,4 +21,32 @@ https://github.com/ssshake/vintage-computer-wifi-modem
 https://github.com/stardot/esp8266_modem/wiki
 
 https://github.com/RolandJuno/esp8266_modem    (implements CTS)
+
+https://github.com/bozimmerman/Zimodem
+
+A firmware image "zimodem.ino.nodemcu-3.4.bin" may be downloaded from:
+
+http://subethasoftware.com/files/zimodem/
+
+For using with ZiModem, use the following settings:
+
+```
+ATS47=5
+OK
+ATS49=15
+OK
+ATS51=13
+OK
+ATS53=12
+OK
+ATS55=14
+OK
+ATS57=4
+OK
+ATB9600
+OK
+AT&W
+```
+(default baud rate 9600 for example)
+
 
