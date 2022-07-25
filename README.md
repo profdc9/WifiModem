@@ -49,4 +49,4 @@ AT&W
 ```
 (default baud rate 9600 for example)
 
-
+If you use the Zimodem firmware (current version 3.7.0 in that directory) that is in the "zimodem-firmware" directory, it is already compiled to point DTR/DSR/RI/RTS/CTS to the correct GPIO pins.  The default baud rate is 1200.  You can use esptool.py or the flash download tool to load it to the address 0x0000.
